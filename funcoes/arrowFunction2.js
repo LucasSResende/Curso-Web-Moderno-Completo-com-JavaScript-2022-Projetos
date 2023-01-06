@@ -1,10 +1,11 @@
-function Pessoa() {
+function Gente() {
     this.idade = 0
 
     setInterval(() => {
         this.idade++
         console.log(this.idade)
-    }, 1000)
+    }, 100000)
 }
+    
 
-new Pessoa
+new Gente
